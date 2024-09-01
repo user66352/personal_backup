@@ -1,0 +1,3 @@
+#task_ID,type,source,target,action,exclude
+#1,dir,/home/peter/Documents/,/mnt/backup/home/peter/Documents,update,temp/|*.dat|*.log
+#2,dir,/home/peter/Pictures/,/mnt/backup/home/peter/Pictures,copy,*.raw
