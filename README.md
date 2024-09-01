@@ -1,4 +1,4 @@
-## What is "personal_backup" ?
+## What is "backup.py" ?
 
 As the name says, its another backup 'solution'.  
 Nothing big. That's why i wrote it.  
@@ -28,6 +28,14 @@ Required python libraries:
 * datetime
 * argparse
 * termcolor
+
+## Installation
+
+Install the python requirements:
+
+`python3 -m pip install tabulate datetime argparse termcolor`
+
+Download the src folder content/zip file and extract it to a target folder of your choice.
 
 ## How to use it
 
