@@ -48,7 +48,7 @@ Each task has the formate "*task_ID, type, source, target, action, exclude_list*
 * type: at the moment only 'dir' is supported, so just add 'dir'
 * source: source directory
 * target: target directory
-* action: can be either 'copy' or 'update', in 'copy' mode target files with the same name will not be overwritten, 'update' will overwrite an already existing target file if the source file is newer.
+* action: can be either 'copy' or 'update', in 'copy' mode already existing target files will not be overwritten, 'update' will overwrite an already existing target file if the source file is newer
 * exclude_list: will exclude specific file types or subdirectories, entries are separated by '|'
 
 To backup /home/peter/Documents to /backup/home/peter/Documents and exclude all \*.dat and \*.log files.  
