@@ -2,7 +2,7 @@
 
 As the name says, its another backup solution.  
 Nothing big. That's why i wrote it.  
-I didn't want to add a lot of requirements to my system nor did i want to learn long cli commands for minute backup jobs.  
+I didn't want to add a lot of requirements to my system outside of python libraries nor did i want to learn long cli commands for minute backup jobs.  
 In the backend rsync manages the actual file transfers. So generally speaking this script is automating simple backup jobs via rsync.  
 Its purpose is not to be a replacement for anything already existing but to provide an easy to understand and quick way to setup private backups.  
 I have written and tested that script only on Linux (Debian 12).  
