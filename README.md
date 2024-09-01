@@ -1,6 +1,6 @@
 ## What is "personal_backup" ?
 
-As the name says, its another backup 'solution'.  
+As the name says, its another backup solution.  
 Nothing big. That's why i wrote it.  
 I didn't want to add a lot of requirements to my system nor did i want to learn long cli commands for minute backup jobs.  
 In the backend rsync manages the actual file transfers. So generally speaking this script is automating simple backup jobs via rsync.  
