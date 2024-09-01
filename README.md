@@ -24,6 +24,7 @@ Alternatively the path to rsync can be added to the file 'bkphandler.py' in the 
 Required python libraries:
 
 * os, sys
+* shutil
 * tabulate
 * datetime
 * argparse
@@ -33,7 +34,7 @@ Required python libraries:
 
 Install the python requirements:
 
-`python3 -m pip install tabulate datetime argparse termcolor`
+`python3 -m pip install shutil tabulate datetime argparse termcolor`
 
 Download the src folder content/zip file and extract it to a target folder of your choice.
 
