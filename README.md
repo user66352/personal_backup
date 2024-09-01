@@ -1,4 +1,4 @@
-## What is "backup.py" ?
+## What is "personal_backup" ?
 
 As the name says, its another backup 'solution'.  
 Nothing big. That's why i wrote it.  
