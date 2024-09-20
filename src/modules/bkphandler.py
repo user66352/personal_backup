@@ -93,7 +93,7 @@ class backup:
         return excl_cmd
 
     def backup_dir(self, src, dst, option, excl_list):
-        options = {"copy": "-axv", "update": "-rlptgoDuv"}
+        options = {"copy": "-axv --ignore-existing --stats --progress", "update": "-xrlptgoDuv --stats --progress"}
         cmd = f'{self.rsync_bin} {options[option]}'
         if len(excl_list) > 0:
             excl_cmd_list = self.format_rsync_for_exclude(excl_list)

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-#ver. 0.4.2
-version = '0.4.2'
+#ver. 0.4.3
+version = '0.4.3'
 
 import os, sys
 from tabulate import tabulate
